@@ -1,0 +1,7 @@
+---
+pool:
+  vmImage: ubuntu-22.04
+steps:
+  - bash: mvn clean package
+  displayname: Building package
+---
